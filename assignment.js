@@ -11,7 +11,6 @@ const filterFunction = (data) => {
     });
 }
 
-
 // Assignment 2:
 const aboveAverageFunction = (data) => {
     return data.map(transaction => {
@@ -23,3 +22,5 @@ const aboveAverageFunction = (data) => {
         return transaction
     })
 }
+
+console.log(filterFunction(transactions), aboveAverageFunction(transactions))
